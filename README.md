@@ -1,7 +1,7 @@
 fumen-svg-server
 ==============================
 
-[![Build Status](https://travis-ci.org/eight04/fumen-svg-server.svg?branch=master)](https://travis-ci.org/eight04/fumen-svg-server)
+[![Build Status](https://travis-ci.com/eight04/fumen-svg-server.svg?branch=master)](https://travis-ci.com/eight04/fumen-svg-server)
 [![codecov](https://codecov.io/gh/eight04/fumen-svg-server/branch/master/graph/badge.svg)](https://codecov.io/gh/eight04/fumen-svg-server)
 [![install size](https://packagephobia.now.sh/badge?p=fumen-svg-server)](https://packagephobia.now.sh/result?p=fumen-svg-server)
 
