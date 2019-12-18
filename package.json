@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "fumen-svg": "^0.1.1"
+    "fumen-svg": "^0.1.2"
   },
   "peerDependencies": {}
 }
