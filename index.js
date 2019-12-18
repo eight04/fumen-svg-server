@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
         res.send(r.body);
       },
       err => {
-        console.error(err);
+        console.error(err); // eslint-disable-line no-console
         res.status(500);
         res.json({
           error: true,
