@@ -12,7 +12,7 @@
     "coverage"
   ],
   "scripts": {
-    "test": "eslint **/*.js --cache",
+    "test": "eslint \"**/*.js\" --cache",
     "preversion": "npm test",
     "postversion": "git push --follow-tags",
     "start": "node index"
