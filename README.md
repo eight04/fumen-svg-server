@@ -7,14 +7,11 @@ fumen-svg-server
 
 A web API which converts fumen data into SVG image. [REPL](https://fumen-svg-server.eight041.repl.co/?data=v115@vhGRQYHAvItJEJmhCAUGJKJJvMJTNJGBJFKYPAUEzP?EJG98AQmqhECDdCA)
 
-Run the server
---------------
-
-1. Clone the repo.
-2. `npm install && npm start`
-
 Usage
 -----
+
+You can use the endpoint hosted by repl.it:
+https://fumen-svg-server.eight041.repl.co/
 
 Send parameters in the query:
 
@@ -30,3 +27,8 @@ Other options are supported:
 
 Note that the image is cached forever.
 
+Run the server
+--------------
+
+1. Clone the repo.
+2. `npm install && npm start`
