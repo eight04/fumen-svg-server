@@ -1,16 +1,13 @@
 fumen-svg-server
 ==============================
 
-[![Build Status](https://travis-ci.com/eight04/fumen-svg-server.svg?branch=master)](https://travis-ci.com/eight04/fumen-svg-server)
-[![codecov](https://codecov.io/gh/eight04/fumen-svg-server/branch/master/graph/badge.svg)](https://codecov.io/gh/eight04/fumen-svg-server)
-
 A web API which converts fumen data into SVG image. [REPL](https://fumen-svg-server--eight041.repl.co/?data=v115@vhGRQYHAvItJEJmhCAUGJKJJvMJTNJGBJFKYPAUEzP?EJG98AQmqhECDdCA)
 
 Usage
 -----
 
-You can use the endpoint hosted by repl.it:  
-https://fumen-svg-server--eight041.repl.co/
+You can use the endpoint hosted on Cloudflare Functions:  
+https://fumen-svg-server.pages.dev/
 
 Send parameters in the query:
 
@@ -26,8 +23,8 @@ Other options are supported:
 
 Note that the image is cached forever.
 
-Run the server
---------------
+Run the server locally
+-----------------------
 
 1. Clone the repo.
 2. `npm install && npm start`
