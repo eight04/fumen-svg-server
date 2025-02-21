@@ -12,20 +12,24 @@
     "coverage"
   ],
   "scripts": {
-    "test": "eslint \"**/*.js\" --cache",
+    "test": "eslint . --cache",
     "preversion": "npm test",
     "postversion": "git push --follow-tags",
-    "start": "node index"
+    "start": "node index",
+    "build": "rollup -c"
   },
   "repository": "eight04/fumen-svg-server",
   "author": "eight04 <eight04@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "eslint": "^9.20.1",
+    "rollup": "^4.34.8",
+    "rollup-plugin-cjs-es": "^3.0.0",
+    "tiny-glob": "^0.2.9"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "fumen-svg": "^0.1.5"
-  },
-  "peerDependencies": {}
+  }
 }
